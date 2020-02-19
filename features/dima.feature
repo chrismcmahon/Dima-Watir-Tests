@@ -1,4 +1,4 @@
-Feature: Downshift Controls on Netlify
+Feature: Transform Image
 
   Background:
     Given I navigate to Dima
