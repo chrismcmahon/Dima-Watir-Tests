@@ -46,12 +46,6 @@ Once you have Ruby in place, install the bundler gem:
 
 `bundle install`
 
-Run tests locally:
-
-Make sure you're using a local browser:
-
-`export RUN_LOCAL=true`
-
 If you want to use SauceLabs instead of running locally: 
 
 `export SAUCE_NAME=[your Sauce user name]`
