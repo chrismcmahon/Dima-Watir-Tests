@@ -5,5 +5,6 @@ source 'http://rubygems.org'
 gem 'page-object'
 gem 'rspec'
 gem 'cucumber'
+gem 'tty-prompt'
 gem 'pry', require: false
 gem 'rubocop', require: false

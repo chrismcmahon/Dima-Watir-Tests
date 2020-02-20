@@ -38,3 +38,8 @@ Then("I should see the transformed image") do
     expect(page.transformed_image_element.present?).to be true
   end
 end
+
+When("Pause {string}") do |msg|
+  $stdout.puts "\e[31m#{msg}.\e[0m\n"
+  @prompt.yes?('Continue?')
+end

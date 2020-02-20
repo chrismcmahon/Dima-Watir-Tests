@@ -50,6 +50,8 @@ Before do |scenario|
     STDOUT.write "SauceOnDemandSessionID=" + @session_id
   end
   @random_string = Random.new.rand(100000000000000000000).to_s
+  require 'tty-prompt'
+  @prompt = TTY::Prompt.new
 end
 
 After do |scenario|
